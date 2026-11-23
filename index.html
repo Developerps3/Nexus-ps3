@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080d19">
+  <meta name="description" content="NEXUS PS3 — the PS3 community, connected.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>NEXUS PS3</title>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><div class="brand-mark">N</div><div><strong>NEXUS PS3</strong><small>THE PS3 COMMUNITY, CONNECTED</small></div></div>
+    <button class="avatar" aria-label="Open profile" data-tab="Profile">J</button>
+  </header>
+  <main id="app">
+    <section class="welcome">
+      <p class="eyebrow">YOUR COMMUNITY HUB</p>
+      <h1>Welcome to<br><span>NEXUS.</span></h1>
+      <p class="muted">Keep your PS3 community close, wherever you are.</p>
+      <div class="status-row"><span class="dot"></span><span>Community preview</span><span class="pill">PS3</span></div>
+    </section>
+    <section class="section-head"><h2>Quick access</h2><span class="muted">Your hub</span></section>
+    <section class="quick-grid">
+      <button class="quick-card" data-tab="Friends"><span class="tile-icon">♧</span><b>Friends</b><small>Find your people</small></button>
+      <button class="quick-card" data-tab="Messages"><span class="tile-icon">✉</span><b>Messages</b><small>Community chats</small></button>
+      <button class="quick-card" data-tab="Games"><span class="tile-icon">▣</span><b>Game library</b><small>Explore PS3 games</small></button>
+      <button class="quick-card" data-tab="Profile"><span class="tile-icon">◉</span><b>My profile</b><small>Your player card</small></button>
+    </section>
+    <section class="section-head"><h2>Community activity</h2><span class="muted">Preview</span></section>
+    <article class="activity-card">
+      <div class="activity-art gta">GTA V</div>
+      <div class="activity-copy"><b>Gaming activity</b><p class="muted">When a player shares what they're playing, it can appear here.</p><span class="tag">MANUAL SHARING</span></div>
+    </article>
+    <section class="notice"><b>PSN connection is not enabled yet</b><p>For now, NEXUS is an independent community app. We won't ask for your PSN password or pretend to have Sony integration.</p></section>
+  </main>
+  <nav class="bottom-nav" aria-label="Main navigation">
+    <button class="nav-item active" data-tab="Home"><span>⌂</span>Home</button>
+    <button class="nav-item" data-tab="Friends"><span>♧</span>Friends</button>
+    <button class="nav-item" data-tab="Messages"><span>✉</span>Messages</button>
+    <button class="nav-item" data-tab="Games"><span>▣</span>Games</button>
+    <button class="nav-item" data-tab="Profile"><span>◉</span>Profile</button>
+  </nav>
+  <script src="app.js"></script>
+</body>
+</html>
